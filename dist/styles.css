@@ -1,0 +1,111 @@
+#current-selection {
+  margin-bottom: 10px;
+}
+
+#current-selection span {
+  position: relative;
+}
+#current-selection span .loading {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+}
+#current-selection span:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer !important;
+}
+#board {
+  /* max-width: 600px; */
+  font-size: 8vmin;
+  user-select: none;
+  display: inline-grid;
+  grid-column-start: 2;
+  grid-template-columns: repeat(var(--width), var(--size));
+  grid-template-rows: repeat(var(--height), var(--size));
+}
+#main .loading {
+  display: block;
+  margin: 0 auto;
+}
+.loading.hide {
+  display: none;
+}
+.tile {
+  /* max-width: 10px; */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#side-tool-set {
+  /* margin-bottom: 10px; */
+  display: none;
+  z-index: 1;
+}
+
+#side-tool-set.shown {
+  /* margin-bottom: 10px; */
+
+  position: absolute;
+  display: block;
+}
+
+#copy {
+  /* padding: 10px 20px; */
+  border: none;
+  cursor: pointer;
+  /* grid-column-start: 2; */
+  /* justify-self: start;
+   */
+  display: inline-block;
+}
+
+#current-selection span:hover {
+  background-color: #a8c6e6b3;
+}
+
+#current-selection {
+  transition: all 0.5s;
+}
+
+.picmo__picker .picmo__categoryButtons {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.picmo__searchField {
+  height: auto !important;
+}
+
+.picmo__picker {
+  --category-count: 7 !important;
+  --emojis-per-row: 6 !important;
+  --row-count: 6 !important;
+  --emoji-size: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  .picmo__picker {
+    --category-count: 10 !important;
+    --emojis-per-row: 7 !important;
+    --row-count: 6 !important;
+    --emoji-size: 2rem !important;
+  }
+  .picmo__picker .picmo__categoryButtons {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #board {
+    /* --size: 3rem !important;
+    font-size: 3rem; */
+  }
+}

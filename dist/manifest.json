@@ -1,0 +1,13 @@
+{
+  "main.js": "auto/bundle09149dd2b91f16be10d9.js",
+  "src_picmo_js.bundljs": "auto/src_picmo_js.bundle09149dd2b91f16be10d9.js",
+  "src_html2canvas_esm_js.bundljs": "auto/src_html2canvas_esm_js.bundle09149dd2b91f16be10d9.js",
+  "zh-cn/data.json": "auto/zh-cn/data.json",
+  "dict-web.css": "auto/dict-web.css",
+  "zh-cn/messages.json": "auto/zh-cn/messages.json",
+  "index.html": "auto/index.html",
+  "translate-loading.svg": "auto/translate-loading.svg",
+  "bundljs.map": "auto/bundle09149dd2b91f16be10d9.js.map",
+  "src_picmo_js.bundljs.map": "auto/src_picmo_js.bundle09149dd2b91f16be10d9.js.map",
+  "src_html2canvas_esm_js.bundljs.map": "auto/src_html2canvas_esm_js.bundle09149dd2b91f16be10d9.js.map"
+}
